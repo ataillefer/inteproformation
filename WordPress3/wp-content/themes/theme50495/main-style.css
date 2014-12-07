@@ -17,7 +17,7 @@ h1 small {
 	font-weight:inherit;
 	color:#ecc74c;
 }
-h2 { margin:0 0 51px 0; }
+h2 { margin:0 0 33px 0; }
 @media (min-width: 768px) and (max-width: 979px) {
 	h2 {
 		font-size:30px !important;
@@ -42,12 +42,12 @@ p { margin-bottom:24px; }
 .header {
 	padding:0;
 	border:none;
-	background-color:#31353d;
-	border-bottom:1px solid #99c027;
+	background-color:#ededed;
+	/*border-bottom:1px solid #99c027;*/
 }
 .header .tail-top {
-	padding:54px 0 42px 0;
-	background-color:#ffffff;
+	padding:20px 0 20px 0;
+	background-color:#ededed;
 }
 @media (min-width: 768px) and (max-width: 979px) {
 	.header .tail-top { padding:20px 0; }
@@ -101,6 +101,7 @@ p { margin-bottom:24px; }
 	text-align:right;
 	margin:-15px 0 0 0;
 }
+.logo img { height:100px; }
 .search-form form { margin-bottom:0; }
 .search-form_it {
 	padding-top:11.5px !important;
@@ -151,7 +152,7 @@ ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
 	color:#fff;
 }
 .sf-menu li ul {
-	background-color:#efc94c;
+	background-color:#99c027;
 	width:234px;
 	padding:33px 0 38px 0;
 }
@@ -281,7 +282,7 @@ a > .sf-sub-indicator { top:1.4em; }
 @media (max-width: 480px) {
 	.home .content-holder { padding-top:0; }
 }
-#content { padding-top:54px; }
+#content { padding-top:34px; }
 .title-section { padding:43px 0 0 0; }
 .title-header {
 	overflow:visible;
@@ -1077,7 +1078,6 @@ a > .sf-sub-indicator { top:1.4em; }
 .footer-widgets address {
 	font-size:14px;
 	line-height:17px;
-	text-transform:uppercase;
 }
 .footer-widgets address span {
 	display:block;
@@ -1525,8 +1525,8 @@ textarea:focus { border-color:#ecc74c !important; }
 }
 .content_box.style-1 {
 	background-color:#f8f8f8;
-	padding:118px 0 104px 0;
-	margin-bottom:121px;
+	padding:40px 0 60px 0;
+	margin-bottom:40px;
 }
 @media (min-width: 768px) and (max-width: 979px) {
 	.content_box.style-1 {
@@ -1983,5 +1983,5 @@ textarea:focus { border-color:#ecc74c !important; }
 	margin-top:-25px;
 	border-radius:25px;
 	z-index:99;
-	background:url(images/spinner.gif) 50% 50% no-repeat #ecc74c;
+	background:url(images/spinner.gif) 50% 50% no-repeat #99c027;
 }
